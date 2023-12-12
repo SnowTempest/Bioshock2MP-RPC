@@ -1,0 +1,23 @@
+A RPC Application for Bioshock 2 Multiplayer.
+
+- Initial Attempts Included Memory Manipulation but was proven Unsuccessful.
+
+Displays the Following Information:
+-Current Game Mode
+-Current Map
+-Current Character
+
+
+Potentially Adding in The Future:
+-Scores
+-Current Weapon
+-Current Plasmid
+
+
+
+Discord Space:
+Playing Bioshock 2 Multiplayer
+
+Line 1 - Game Mode - Game Map
+Line 2 - Playing as Character with Weapon + Plasmid
+Line 3 - Time Elapsed + Scores
