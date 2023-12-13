@@ -1,14 +1,11 @@
 __author__ = "SnowTempest"
 __copyright__ = "Copyright (C) 2022 SnowTempest"
-__license__ = "NONE"
+__license__ = "GNU GENERAL PUBLIC LICENSE"
 __version__= "1.0"
 
 
 from utils import *
 from bioshock2 import *
-
-pytesseract.pytesseract.tesseract_cmd = 'bioshock2-mp-rpc\\Tesseract\\tesseract.exe'  # your path may be different
-
 
 def start():
     print("*****************************************************************************")
@@ -29,7 +26,7 @@ def start():
     except KeyboardInterrupt:
         error_handler("User Has Chosen To Close.", True)
 
-    
+    get_current_screen()
 
 # Function print_error()
 # param error = The error message to be printed.
