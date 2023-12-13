@@ -1,0 +1,6 @@
+
+# Ignore the Tesseract Folder Data
+Tesseract/
+
+# Ignore any Cache Files Created by Python
+__pycache__
