@@ -14,19 +14,20 @@ def start():
 
     print("\nYou Can Close the Program at Any Time Using Ctrl + C.\n")
 
-    print("\nChecking if Multiplayer is Active...")
+    print("\nWaiting for Multiplayer To Be Open and Current Tab...")
 
     active = check_if_active()
+    priority = check_if_priority()
 
     try:
-        while not active:
-            print("\nMultiplayer Is Not Active. Please Open Bioshock 2 Multiplayer and Try Again.")
-            input("Press Any Key To Check Again...")
+        while not active or not priority:
             active = check_if_active()
+            priority = check_if_priority()
+
     except KeyboardInterrupt:
         error_handler("User Has Chosen To Close.", True)
 
-    get_current_screen()
+    
 
 # Function print_error()
 # param error = The error message to be printed.

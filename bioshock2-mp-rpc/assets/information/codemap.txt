@@ -1,0 +1,34 @@
+
+
+Process Map
+
+Check if the game is running.
+Check if the game is priority.
+
+then start rpc.
+
+while rpc is running
+
+during the loop:
+check active
+check priority
+
+check screen
+if in-game check match data
+if lobby check if public or private
+check other screens.
+
+if in lobby get match mode and map data.
+check if previous screen was lobby and new screen is in-game and if so then set match information
+
+if apartment check for postcard
+
+if in-game check for timer
+
+if main menu check for options
+
+
+
+
+
+

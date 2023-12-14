@@ -32,6 +32,7 @@ def get_directory():
     
     return dir
 
+# Locate the Tesseract Executable
 file_directory = get_directory()
 tesseract_path =  os.path.join(file_directory, 'Tesseract', 'tesseract.exe')
 pytesseract.pytesseract.tesseract_cmd = tesseract_path
